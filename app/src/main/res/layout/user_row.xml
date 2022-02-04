@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/prof_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="7dp"
+        />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Name"
+        android:layout_toRightOf="@+id/profileImage"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/userPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImage"
+        android:text="Hello this is hadi"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/uploadedImage"
+        android:layout_below="@+id/profileImage" />
+
+</RelativeLayout>

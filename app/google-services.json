@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425474980357",
+    "project_id": "fbclone-20de4",
+    "storage_bucket": "fbclone-20de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425474980357:android:221970f3aaff24813afa6c",
+        "android_client_info": {
+          "package_name": "com.example.customadapter_miniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425474980357-j364scgeekl25lqq6gq9p8p46gs9jvtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2-7Kf2jonRT62IPINbmO7d1SuxtQe9yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425474980357-j364scgeekl25lqq6gq9p8p46gs9jvtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
